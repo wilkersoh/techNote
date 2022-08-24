@@ -1,6 +1,6 @@
 const User = require("../models/User");
 const Note = require("../models/Note");
-const asyncHandler = require("express-async-handler");
+const asyncHandler = require("express-async-handler"); // to catch any unexpected error and pass those on custom error handle
 const bcrypt = require("bcrypt");
 
 // @desc Get all users
